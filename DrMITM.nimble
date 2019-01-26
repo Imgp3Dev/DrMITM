@@ -1,11 +1,9 @@
 # Package
 
 version       = "0.1.0"
-author        = "Tzu"
-description   = "DrMITM is a program for globally logging website traffic."
+author        = "imgp3dev"
+description   = "DrMITM is a program designed to globally log all http/https trafficc."
 license       = "MIT"
-srcDir        = "src"
-bin           = @["DrMITM"]
 
 # Dependencies
 
