@@ -25,7 +25,7 @@ proc switch*(sw: string) =
 echo "Changing IP back to the original.."
 
 proc Log*(lg: string) =
-echo "Logging the traffic..
+echo "Logging the traffic.."
 echo "Set a timer for how long it should be loggingor press e to go into live-logging mode: "
 let lg = readLine(stdin).parseInt()
 if lg == "e":
