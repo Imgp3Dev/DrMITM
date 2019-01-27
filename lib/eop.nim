@@ -6,19 +6,18 @@ import os
 proc intro*(hello: string) =
 echo "Hello, Enter website URL: "
 let input = readLine(stdin)
-
+###^ Grabs Input ###
 proc request*(send: string) =
 echo "sending request"
-
+##^ Outputs sending request##
 proc output*(out: string) =
 echo "IP: ", client
 echo "Note: The traffic request is stored in request.txt"
-#^Grabs request that the website is sending to the
-#Server
+###^Grabs request that the website is sending to the Server.###
 
 proc resent*(re: string) =
 echo "Switching IP.."
-echo client
+echo client ######Uses client IP######
 echo "Sending message to Server".
 
 proc switch*(sw: string) =
@@ -28,7 +27,7 @@ proc Log*(lg: string) =
 echo "Logging the traffic.."
 echo "Set a timer for how long it should be loggingor press e to go into live-logging mode: "
 let lg = readLine(stdin).parseInt()
-if lg == "e":
+if lg == "e": ##If they press e it will output data into Log.txt then output it.##
   echo ""
   proc WriteFile(File: string){
   Log.txt
