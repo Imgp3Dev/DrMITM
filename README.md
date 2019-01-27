@@ -11,3 +11,7 @@ DrMITM sends a request to website and returns the IP of the website just in case
 The "e" or live-logging mode outputs the traffic to a file log.txt and then outputs it to you screen as live-watching traffic.
 
 the none live-logging mode only outputs it to the file and doesn't output it to the screen.
+
+# u̲p̲c̲o̲m̲i̲n̲g̲ f̲e̲a̲t̲u̲r̲e̲s̲
+
+--Preventing client traffic from reaching the server.--
