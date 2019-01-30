@@ -12,6 +12,8 @@ The "e" or live-logging mode outputs the traffic to a file log.txt and then outp
 
 the none live-logging mode only outputs it to the file and doesn't output it to the screen.
 
+New mode added: "b" for blocking traffic.
+
 # u̲p̲c̲o̲m̲i̲n̲g̲ f̲e̲a̲t̲u̲r̲e̲s̲
 
 --Preventing client traffic from reaching the server.--(Now available)
