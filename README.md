@@ -14,4 +14,4 @@ the none live-logging mode only outputs it to the file and doesn't output it to 
 
 # u̲p̲c̲o̲m̲i̲n̲g̲ f̲e̲a̲t̲u̲r̲e̲s̲
 
---Preventing client traffic from reaching the server.--
+--Preventing client traffic from reaching the server.--(Now available)
