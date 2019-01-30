@@ -25,7 +25,7 @@ echo "Changing IP back to the original.."
 
 proc Log*(lg: string) =
 echo "Logging the traffic.."
-echo "Set a timer for how long it should be loggingor press e to go into live-logging mode or b to go into traffic blocking mode:: "
+echo "Set a timer for how long it should be loggingor press e to go into live-logging mode or b to go into traffic blocking mode: "
 let lg = readLine(stdin).parseInt()
 if lg == "e": ##If they press e it will output data into Log.txt then output it.##
   echo ""
