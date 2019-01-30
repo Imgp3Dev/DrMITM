@@ -25,7 +25,7 @@ echo "Changing IP back to the original.."
 
 proc Log*(lg: string) =
 echo "Logging the traffic.."
-echo "Set a timer for how long it should be loggingor press e to go into live-logging mode: "
+echo "Set a timer for how long it should be loggingor press e to go into live-logging mode or b to go into traffic blocking mode:: "
 let lg = readLine(stdin).parseInt()
 if lg == "e": ##If they press e it will output data into Log.txt then output it.##
   echo ""
@@ -35,6 +35,16 @@ if lg == "e": ##If they press e it will output data into Log.txt then output it.
   proc ReadFile(File: string){
   Log.txt
   }
+  if lg == "b":
+  echo "Enter any number from 1-3: " ##Easier way of knowing when to loop##
+  let lg = readLine(stdin).parseInt()
+  proc msg*(Message: string) = "###############"
+  while lg < 10:
+  resent()
+  switch()
+  msg()
+  inc lg
+  ####^ if the number is less than 10 it will spam hashtags to the server after it switches####
 else:
   echo "Timer set to: ", lg
   echo "starting.."
