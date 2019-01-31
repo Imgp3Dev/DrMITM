@@ -17,3 +17,7 @@ New mode added: "b" for blocking traffic.
 # u̲p̲c̲o̲m̲i̲n̲g̲ f̲e̲a̲t̲u̲r̲e̲s̲
 
 --Preventing client traffic from reaching the server.--(Now available)
+
+# ᴛʜᴇᴏʀᴇᴛɪᴄᴀʟ ᴄᴏɴ
+
+There may be a possibility that DrMITM will fail at sniffing traffic of websites that communicate through multiple servers because of configuration reasons or possibly a change of encryption or requirements of needing to trick the server.
