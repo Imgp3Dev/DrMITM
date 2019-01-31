@@ -20,4 +20,4 @@ New mode added: "b" for blocking traffic.
 
 # ᴛʜᴇᴏʀᴇᴛɪᴄᴀʟ ᴄᴏɴ
 
-There may be a possibility that DrMITM will fail at sniffing traffic of websites that communicate through multiple servers because of configuration reasons or possibly a change of encryption or requirements of needing to trick the server.
+There may be a possibility that DrMITM will fail at sniffing traffic of websites that communicate through multiple servers because of configuration reasons or possibly a change of encryption or requirements of needing to trick the server. and i say "there may" because it hasn't been tested yet.
