@@ -12,11 +12,14 @@ DrMITM sends a request to website and returns the IP of the website just in case
 For Nim version:
 Install 19.0 Nim(using choosenim or git clone)
   Git clone the repo
+  cd into the directory
 Run nim DrMITM.nim
+
 
 For Python version:
 Install Python
 git clone the repo
+cd into the directory
 Run python DrMITM.py
 
 
@@ -35,3 +38,17 @@ Run python DrMITM.py
 # ᴛʜᴇᴏʀᴇᴛɪᴄᴀʟ ᴄᴏɴ
 
  ᴛʜᴇʀᴇ ᴍᴀʏ ʙᴇ ᴀ ᴘᴏssɪʙɪʟɪᴛʏ ᴛʜᴀᴛ ᴅʀᴍɪᴛᴍ ᴡɪʟʟ ғᴀɪʟ ᴀᴛ sɴɪғғɪɴɢ ᴛʀᴀғғɪᴄ ᴏғ ᴡᴇʙsɪᴛᴇs ᴛʜᴀᴛ ᴄᴏᴍᴍᴜɴɪᴄᴀᴛᴇ ᴛʜʀᴏᴜɢʜ ᴍᴜʟᴛɪᴘʟᴇ sᴇʀᴠᴇʀs ʙᴇᴄᴀᴜsᴇ ᴏғ ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ʀᴇᴀsᴏɴs ᴏʀ ᴘᴏssɪʙʟʏ ᴀ ᴄʜᴀɴɢᴇ ᴏғ ᴇɴᴄʀʏᴘᴛɪᴏɴ ᴏʀ ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs ᴏғ ɴᴇᴇᴅɪɴɢ ᴛᴏ ᴛʀɪᴄᴋ ᴛʜᴇ sᴇʀᴠᴇʀ. ᴀɴᴅ ɪ sᴀʏ "ᴛʜᴇʀᴇ ᴍᴀʏ" ʙᴇᴄᴀᴜsᴇ ɪᴛ ʜᴀsɴ'ᴛ ʙᴇᴇɴ ᴛᴇsᴛᴇᴅ ʏᴇᴛ.
+ 
+ # Issue Reporting
+ 
+ If you have an issue please submit it with the following details given: 
+ 
+*your issue*
+
+*Your Nim Or Python version*
+
+*Operating system*
+
+*The process of what you were doing before the issue occurred*
+
+
