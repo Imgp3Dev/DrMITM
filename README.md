@@ -20,4 +20,4 @@ New mode added: "b" for blocking traffic.
 
 # ᴛʜᴇᴏʀᴇᴛɪᴄᴀʟ ᴄᴏɴ
 
-There may be a possibility that DrMITM will fail at sniffing traffic of websites that communicate through multiple servers because of configuration reasons or possibly a change of encryption or requirements of needing to trick the server. and i say "there may" because it hasn't been tested yet.
+ ᴛʜᴇʀᴇ ᴍᴀʏ ʙᴇ ᴀ ᴘᴏssɪʙɪʟɪᴛʏ ᴛʜᴀᴛ ᴅʀᴍɪᴛᴍ ᴡɪʟʟ ғᴀɪʟ ᴀᴛ sɴɪғғɪɴɢ ᴛʀᴀғғɪᴄ ᴏғ ᴡᴇʙsɪᴛᴇs ᴛʜᴀᴛ ᴄᴏᴍᴍᴜɴɪᴄᴀᴛᴇ ᴛʜʀᴏᴜɢʜ ᴍᴜʟᴛɪᴘʟᴇ sᴇʀᴠᴇʀs ʙᴇᴄᴀᴜsᴇ ᴏғ ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ʀᴇᴀsᴏɴs ᴏʀ ᴘᴏssɪʙʟʏ ᴀ ᴄʜᴀɴɢᴇ ᴏғ ᴇɴᴄʀʏᴘᴛɪᴏɴ ᴏʀ ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs ᴏғ ɴᴇᴇᴅɪɴɢ ᴛᴏ ᴛʀɪᴄᴋ ᴛʜᴇ sᴇʀᴠᴇʀ. ᴀɴᴅ ɪ sᴀʏ "ᴛʜᴇʀᴇ ᴍᴀʏ" ʙᴇᴄᴀᴜsᴇ ɪᴛ ʜᴀsɴ'ᴛ ʙᴇᴇɴ ᴛᴇsᴛᴇᴅ ʏᴇᴛ.
