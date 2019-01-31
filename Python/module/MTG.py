@@ -1,7 +1,7 @@
 #MTG = Message Traffic Grabber.
 # > Getting Data that was sent to the server
 import socket
-import httplib
+import http.client
 import time
 def resend(url):
 s = socket.socket()
