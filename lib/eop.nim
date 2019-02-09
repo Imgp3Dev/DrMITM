@@ -1,5 +1,8 @@
 import times
 import os
+import httpclient
+import json
+import random
 #Easy output
 #Quick output to DrMITM
 
@@ -25,7 +28,7 @@ echo "Changing IP back to the original.."
 
 proc Log*(lg: string) =
 echo "Logging the traffic.."
-echo "Set a timer for how long it should be loggingor press e to go into live-logging mode or b to go into traffic blocking mode: "
+echo "enter a command: "
 let lg = readLine(stdin).parseInt()
 if lg == "e": ##If they press e it will output data into Log.txt then output it.##
   echo ""
@@ -54,7 +57,20 @@ else:
   }
 #Live-logging is seeing the requests coming instead#of data being sent to a file after given time.
 
-
-
-
-
+####################
+#
+##Generates random string to cause error message##
+#
+#
+####################
+proc randstr: string =
+for i in .. 5
+add(randchar, char(rand(int('A') .. int('B'))))
+if lg == "r":
+let client = newHttpClient()
+client.headers = newHttpHeaders({
+let body = %*{
+"data": randstr
+}
+let response = client.request(url)
+#^code for redirection(still in development)
