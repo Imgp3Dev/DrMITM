@@ -73,4 +73,8 @@ let body = %*{
 "data": randstr
 }
 let response = client.request(url)
-#^code for redirection(still in development)
+
+lg = proc writeFile(File: string){
+Log.txt                                            }
+##^Logs error message
+
