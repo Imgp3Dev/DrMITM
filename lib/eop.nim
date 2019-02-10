@@ -3,6 +3,7 @@ import os
 import httpclient
 import json
 import random
+import httpstatusresponse
 #Easy output
 #Quick output to DrMITM
 
@@ -56,25 +57,7 @@ else:
   Log.txt
   }
 #Live-logging is seeing the requests coming instead#of data being sent to a file after given time.
-
-####################
-#
-##Generates random string to cause error message##
 #
 #
-####################
-proc randstr: string =
-for i in .. 5
-add(randchar, char(rand(int('A') .. int('B'))))
-if lg == "r":
-let client = newHttpClient()
-client.headers = newHttpHeaders({
-let body = %*{
-"data": randstr
-}
-let response = client.request(url)
-
-lg = proc writeFile(File: string){
-Log.txt                                            }
-##^Logs error message
-
+ErrorMessage(url)
+##^Sends fake error message + redirection.
