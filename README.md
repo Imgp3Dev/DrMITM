@@ -23,13 +23,11 @@ cd into the directory
 Run python DrMITM.py
 
 
-# M̳o̳d̳e̳
+# ᴄᴏᴍᴍᴀɴᴅs
 
-ᴛʜᴇ "ᴇ" ᴏʀ ʟɪᴠᴇ-ʟᴏɢɢɪɴɢ ᴍᴏᴅᴇ ᴏᴜᴛᴘᴜᴛs ᴛʜᴇ ᴛʀᴀғғɪᴄ ᴛᴏ ᴀ ғɪʟᴇ ʟᴏɢ.ᴛxᴛ ᴀɴᴅ ᴛʜᴇɴ ᴏᴜᴛᴘᴜᴛs ɪᴛ ᴛᴏ ʏᴏᴜ sᴄʀᴇᴇɴ ᴀs ʟɪᴠᴇ-ᴡᴀᴛᴄʜɪɴɢ ᴛʀᴀғғɪᴄ.
-
-ᴛʜᴇ ɴᴏɴᴇ ʟɪᴠᴇ-ʟᴏɢɢɪɴɢ ᴍᴏᴅᴇ ᴏɴʟʏ ᴏᴜᴛᴘᴜᴛs ɪᴛ ᴛᴏ ᴛʜᴇ ғɪʟᴇ ᴀɴᴅ ᴅᴏᴇsɴ'ᴛ ᴏᴜᴛᴘᴜᴛ ɪᴛ ᴛᴏ ᴛʜᴇ sᴄʀᴇᴇɴ.
-
-ɴᴇᴡ ᴍᴏᴅᴇ ᴀᴅᴅᴇᴅ: "ʙ" ғᴏʀ ʙʟᴏᴄᴋɪɴɢ ᴛʀᴀғғɪᴄ.
+e(live logging)
+b(traffic blocking)
+r(redirect users)
 
 # u̲p̲c̲o̲m̲i̲n̲g̲ f̲e̲a̲t̲u̲r̲e̲s̲
 
@@ -53,4 +51,17 @@ Run python DrMITM.py
 
 *The process of what you were doing before the issue occurred*
 
+
+Q&A:
+
+Q:How does live logging works?
+
+A:it just sends the logged data to a file and outputs it on screen.
+
+Q: How does the traffic block work?
+A: a unicode gets sent to the website from server and overflows the traffic towards incoming traffic.
+
+Q:How does the redirectio. feature works?
+
+A: it sends a fake error message + redirection status code from the server with a modified location.
 
